@@ -1,0 +1,28 @@
+{
+  "name": "postcss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor de Andres",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorDeAndres/postcss_playground.git"
+  },
+  "keywords": [
+    "playground"
+  ],
+  "bugs": {
+    "url": "https://github.com/VictorDeAndres/postcss_playground/issues"
+  },
+  "homepage": "https://github.com/VictorDeAndres/postcss_playground#readme",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-webserver": "^0.9.1",
+    "import-postcss": "^8.0.2"
+  }
+}
