@@ -1,9 +1,90 @@
-.header {
+html, body {
+  height: 100%;
+  background-color: #fff;
+}
+
+#container{
+  width: 1600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  clear:both;
+  width:100%;
+  height: 10%;
   background-color: red;
 }
+
+#mainarea{
+  display: block;
+  width: 100%;
+  height: 80%;
+}
+
 .sidebar {
-  background-color: red;
+ background-color: green;
+ display: block;
+ width: 20%;
+ height: 100%;
+ float: left;
 }
-.main {
-  background-color: red;
+
+.main{
+  display: block;
+  background-color: cyan;
+  width: 80%;
+  height: 100%;
+  float: left;
+}
+
+.main__row{
+    display: block;
+    background-color: #764311;
+    width: 100%;
+    height: 50%;
+  }
+
+.main__oneColumn{
+    display: block;
+    background-color: orange;
+    width: 100%;
+    height: 100%;
+    float: left;
+  }
+
+.main__twoColumn{
+    display: block;
+    background-color: #33aa11;
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+
+.main__threeColumn{
+    display: block;
+    background-color: #11aa33;
+    width: 33.3%;
+    height: 100%;
+    float: left;
+  }
+
+#footer{
+  display: block;
+  background-color: pink;
+  width: 100%;
+  height: 10%;
+}
+
+.show{
+  visibility: visible;
+}
+
+.hide{
+  height: 0px;
+  width: 0px;
 }

@@ -1,3 +1,24 @@
+@import './__colors.css';
+
+html, body {
+  height: 100%;
+  background-color: #fff;
+}
+
+#container{
+  width: 1600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
 @import './__header.css';
+@import './__mainarea.css';
 @import './__sidebar.css';
 @import './__main.css';
+@import './__footer.css';
+
+@import './__common.css';

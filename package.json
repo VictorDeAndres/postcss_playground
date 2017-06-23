@@ -23,6 +23,8 @@
     "gulp": "^3.9.1",
     "gulp-postcss": "^7.0.0",
     "gulp-webserver": "^0.9.1",
-    "import-postcss": "^8.0.2"
+    "import-postcss": "^8.0.2",
+    "postcss-advanced-variables": "^1.2.2",
+    "postcss-nested": "^2.0.2"
   }
 }

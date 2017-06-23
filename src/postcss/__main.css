@@ -1,0 +1,35 @@
+.main{
+  display: block;
+  background-color: $main_color;
+  width: 80%;
+  height: 100%;
+  float: left;
+  &__row{
+    display: block;
+    background-color: #764311;
+    width: 100%;
+    height: 50%;
+  }
+  &__oneColumn{
+    display: block;
+    background-color: orange;
+    width: 100%;
+    height: 100%;
+    float: left;
+  }
+  &__twoColumn{
+    display: block;
+    background-color: #33aa11;
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+  &__threeColumn{
+    display: block;
+    background-color: #11aa33;
+    width: 33.3%;
+    height: 100%;
+    float: left;
+  }
+}
+

@@ -1,0 +1,7 @@
+.sidebar {
+ background-color: $sidebar_color;
+ display: block;
+ width: 20%;
+ height: 100%;
+ float: left;
+}
