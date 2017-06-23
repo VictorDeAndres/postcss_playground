@@ -17,7 +17,8 @@ gulp.task('css', function () {
     var processors = [
       require("import-postcss"),
       require('postcss-advanced-variables'),
-      require('postcss-nested')
+      require('postcss-nested'),
+      require('autoprefixer')
     ];
     return gulp.src('./src/postcss/styles.css')
         .pipe(postcss(processors))

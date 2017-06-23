@@ -20,6 +20,7 @@
   "homepage": "https://github.com/VictorDeAndres/postcss_playground#readme",
   "description": "",
   "devDependencies": {
+    "autoprefixer": "^7.1.1",
     "gulp": "^3.9.1",
     "gulp-postcss": "^7.0.0",
     "gulp-webserver": "^0.9.1",
